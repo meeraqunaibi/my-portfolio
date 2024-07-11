@@ -1,0 +1,28 @@
+.project-det {
+    padding: 20px;
+    text-align: left;
+}
+
+.project-det h1 {
+    font: 55px "Poppins", Sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.project-det p {
+    font-size: 16px;
+    font-family: "Roboto Mono", Sans-serif;
+    font-weight: 700;
+    color: #838998;
+    padding: 80px 20px;
+}
+
+.project-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-images img {
+    width: 100%;
+}

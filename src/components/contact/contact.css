@@ -1,0 +1,49 @@
+.contact {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 80px 160px;
+    background-color: #0e0e0e;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.message div {
+    margin: 20px 0px;
+}
+
+.message p {
+    font-family: "Roboto Mono", Sans-serif;
+    font-size: 19px;
+    line-height: 1.3em;
+}
+
+.message h3 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.links a {
+    font-family: "Roboto Mono", Sans-serif;
+    font-size: 19px;
+    line-height: 1.3em;
+    text-decoration-color: #9440e8;
+    text-decoration-thickness: 3px;
+}
+
+@media (max-width: 768px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
