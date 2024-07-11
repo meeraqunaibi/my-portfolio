@@ -34,7 +34,7 @@ const Expertise = () => {
                 {expertise.map((card) =>
                     <div class="card">
                         <div class="card-header">
-                            <img src={card.logo} alt="" />
+                            <img src={card.logo} alt="logo" />
                             <h5>{card.header}</h5>
                         </div>
                         <div class="card-content">

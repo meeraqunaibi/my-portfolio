@@ -41,16 +41,13 @@ const Experience = () => {
 
         },
     ]
-    const [toggle, setToggle] = useState(false);
     const [item, setItem] = useState(null);
 
     const handleClick = (element) => {
         if (item === element.id) {
             setItem(null);
-            setToggle(true);
         } else {
             setItem(element.id);
-            setToggle(false);
         }
     };
     return (
@@ -63,7 +60,7 @@ const Experience = () => {
                             <span>{element.title}</span>
                             <div>
                                 <span>{element.year}</span>
-                                <FontAwesomeIcon cursor="pointer" icon={item == element.id ? faPlus : faMinus} onClick={() => handleClick(element)} />
+                                <FontAwesomeIcon cursor="pointer" icon={item === element.id ? faPlus : faMinus} onClick={() => handleClick(element)} />
                             </div>
                         </div>
                         {item == element.id && <div className="exp-content">

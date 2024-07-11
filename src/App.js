@@ -11,14 +11,14 @@ function App() {
   const [projectsData, setProjectsData] = useState([]);
   useEffect(() => {
     setProjectsData(projects)
-  }, []);
+  });
   return (
     <div className="App">
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home projects={projectsData}/>} />
-          <Route path='/projects/:id' element={<ViewProject projects={projectsData}/>} />
+          <Route path='/' element={<Home projects={projectsData} />} />
+          <Route path='/projects/:id' element={<ViewProject projects={projectsData} />} />
         </Routes>
       </BrowserRouter>
     </div>

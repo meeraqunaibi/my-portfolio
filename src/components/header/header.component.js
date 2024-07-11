@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./header.css"
-import { Button, Drawer } from 'antd';
+import { Drawer } from 'antd';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <nav>
-            <div class="nav-container">
+            <div className="nav-container">
                 <div className='nav-menu'>
                     <span>MeeraIyad._</span>
                     <ul className='nav-list'>

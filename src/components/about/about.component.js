@@ -6,10 +6,10 @@ const About = () => {
     return (
         <div className="home" id='about'>
             <div className='home-content'>
-                <img src={starImage} alt="" class="right-img" />
+                <img src={starImage} alt="star-image" class="right-img" />
                 <h1>Meera Iyad</h1>
                 <h5>Software Engineer & Full Stack Developer</h5>
-                <img src={starImage} alt="" class="left-img" />
+                <img src={starImage} alt="star-image" class="left-img" />
             </div>
         </div>
     )

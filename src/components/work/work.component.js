@@ -16,7 +16,7 @@ const Work = ({ projects }) => {
                 {projects.map((project) =>
                     <div className='project' onClick={() => showProject(project.key)}>
                         <div className='project-image'>
-                            <img src={project.images[0]} />
+                            <img src={project.images[0]} alt='project-image'/>
                         </div>
                         <div className='project-details'>
                             <h3>{project.title}</h3>
