@@ -22,11 +22,11 @@ const Header = () => {
                 <div className='nav-menu'>
                     <span>MeeraIyad._</span>
                     <ul className='nav-list'>
-                        <li className='nav-item'><a href="#about">// Home</a></li>
-                        <li className='nav-item'><a href="#expertise">// Expertise</a></li>
-                        <li className='nav-item'><a href="#work">// Work</a></li>
-                        <li className='nav-item'><a href="#experience">// Experience</a></li>
-                        <li className='nav-item'><a href="#contact">// Contact</a></li>
+                        <li className='nav-item'><a href="#about">Home</a></li>
+                        <li className='nav-item'><a href="#expertise">Expertise</a></li>
+                        <li className='nav-item'><a href="#work">Work</a></li>
+                        <li className='nav-item'><a href="#experience">Experience</a></li>
+                        <li className='nav-item'><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
 
@@ -40,11 +40,11 @@ const Header = () => {
                     open={open}
                 >
                     <ul>
-                        <li className='nav-item'><a href="#about" onClick={onClose}>// Home</a></li>
-                        <li className='nav-item'><a href="#expertise" onClick={onClose}>// Expertise</a></li>
-                        <li className='nav-item'><a href="#work" onClick={onClose}>// Work</a></li>
-                        <li className='nav-item'><a href="#experience" onClick={onClose}>// Experience</a></li>
-                        <li className='nav-item'><a href="#contact" onClick={onClose}>// Contact</a></li>
+                        <li className='nav-item'><a href="#about" onClick={onClose}>Home</a></li>
+                        <li className='nav-item'><a href="#expertise" onClick={onClose}>Expertise</a></li>
+                        <li className='nav-item'><a href="#work" onClick={onClose}>Work</a></li>
+                        <li className='nav-item'><a href="#experience" onClick={onClose}>Experience</a></li>
+                        <li className='nav-item'><a href="#contact" onClick={onClose}>Contact</a></li>
                     </ul>
                     <p>© 2021. Made with passion by Meera Iyad.
                         All right reserved.</p>

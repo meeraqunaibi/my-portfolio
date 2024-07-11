@@ -11,7 +11,7 @@ function App() {
   const [projectsData, setProjectsData] = useState([]);
   useEffect(() => {
     setProjectsData(projects)
-  });
+  }, []);
   return (
     <div className="App">
       <Header />

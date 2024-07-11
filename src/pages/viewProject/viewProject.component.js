@@ -18,7 +18,7 @@ const ViewProject = (props) => {
                 {oneProject?.desc}
             </p>
             <div className='project-images'>
-                {oneProject?.images?.map((e, index) => <img key={index} src={e} />)}
+                {oneProject?.images?.map((e, index) => <img key={index} src={e} alt='project-image' />)}
             </div>
         </div>
     )

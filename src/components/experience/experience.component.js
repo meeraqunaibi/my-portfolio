@@ -63,7 +63,7 @@ const Experience = () => {
                                 <FontAwesomeIcon cursor="pointer" icon={item === element.id ? faPlus : faMinus} onClick={() => handleClick(element)} />
                             </div>
                         </div>
-                        {item == element.id && <div className="exp-content">
+                        {item === element.id && <div className="exp-content">
                             <div>
                                 <div className='loc'>
                                     <FontAwesomeIcon icon={faLocationDot} />
