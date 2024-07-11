@@ -10,7 +10,7 @@ const ViewProject = (props) => {
             props.projects.find((p) => p.key === id.id) || null;
         setOneProject(currentProject);
         console.log(currentProject);
-    }, []);
+    }, [oneProject, props]);
     return (
         <div className='project-det'>
             <h1>{oneProject?.title}</h1>
