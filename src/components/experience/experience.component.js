@@ -51,11 +51,11 @@ const Experience = () => {
         }
     };
     return (
-        <div class="experience" id='experience'>
+        <div className="experience" id='experience'>
             <h1>Professional Experience</h1>
             <div className='exp-wrapper'>
-                {experiences.map((element) =>
-                    <div className='exp'>
+                {experiences.map((element, index) =>
+                    <div key={index} className='exp'>
                         <div className='exp-header'>
                             <span>{element.title}</span>
                             <div>
@@ -73,7 +73,7 @@ const Experience = () => {
                                 </div>
                                 <p className='details'>{element.details}</p>
                                 <div className='tech'>
-                                    {element.tech.map((e) => <span>{e}</span>)}
+                                    {element.tech.map((e, index) => <span key={index}>{e}</span>)}
                                 </div>
                             </div>
                             <div>

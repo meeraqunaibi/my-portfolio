@@ -28,16 +28,16 @@ const Expertise = () => {
 
     ]
     return (
-        <div class="expertise" id='expertise'>
+        <div className="expertise" id='expertise'>
             <h1>My Expertise</h1>
-            <div class="tech-cards">
-                {expertise.map((card) =>
-                    <div class="card">
-                        <div class="card-header">
+            <div className="tech-cards">
+                {expertise.map((card, index) =>
+                    <div key={index} className="card">
+                        <div className="card-header">
                             <img src={card.logo} alt="logo" />
                             <h5>{card.header}</h5>
                         </div>
-                        <div class="card-content">
+                        <div className="card-content">
                             <span>&lt;h3&gt;</span>
                             <p>{card.content}</p>
                             <span>&lt;/h3&gt;</span>

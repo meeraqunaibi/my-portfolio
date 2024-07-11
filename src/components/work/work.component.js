@@ -13,8 +13,8 @@ const Work = ({ projects }) => {
         <div className='works' id='work'>
             <h1>My Works</h1>
             <div className='projects'>
-                {projects.map((project) =>
-                    <div className='project' onClick={() => showProject(project.key)}>
+                {projects.map((project, index) =>
+                    <div key={index} className='project' onClick={() => showProject(project.key)}>
                         <div className='project-image'>
                             <img src={project.images[0]} alt='project-image'/>
                         </div>
