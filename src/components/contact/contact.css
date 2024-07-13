@@ -1,10 +1,11 @@
 .contact {
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
+    justify-content: center;
     align-items: center;
     text-align: left;
-    padding: 80px 160px;
+    padding: 80px 60px;
     background-color: #0e0e0e;
 }
 
@@ -41,7 +42,7 @@
 }
 
 @media (max-width: 768px) {
-    .contact{
+    .contact {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
