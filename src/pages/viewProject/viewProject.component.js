@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router';
 import './viewProject.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeftLong, faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
 
 const ViewProject = (props) => {
     const [oneProject, setOneProject] = useState(null);
