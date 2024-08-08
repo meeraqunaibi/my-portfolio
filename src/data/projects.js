@@ -35,7 +35,9 @@ export const projects = [
         "images": [
             kidTrack1, kidTrack2, kidTrack3, kidTrack4, kidTrack5, kidTrack6, kidTrack7, kidTrack8,
         ],
-        "path": "kindergarten"
+        "path": "kindergarten",
+        "repoUI": "https://github.com/meeraqunaibi/kindergarten-ui",
+        "repoAPI": "https://github.com/meeraqunaibi/kindergarden-api",
     },
     {
         "key": "library",
@@ -45,7 +47,9 @@ export const projects = [
         "images": [
             library4, library1, library2, library3, library5
         ],
-        "path": "onlineLibrary"
+        "path": "onlineLibrary",
+        "repoUI": "https://github.com/meeraqunaibi/online-library",
+
     },
     {
         "key": "todo",
@@ -55,7 +59,10 @@ export const projects = [
         "images": [
             todo1, todo10, todo11, todo12, todo2, todo3, todo4, todo5, todo6, todo7, todo8, todo9
         ],
-        "path": "todo"
+        "path": "todo",
+        "repoUI": "https://github.com/meeraqunaibi/task-app/tree/task-app-ui",
+        "repoAPI": "https://github.com/meeraqunaibi/task-app-api/tree/task-api",
+
     },
     {
         "key": "tic",
@@ -65,6 +72,7 @@ export const projects = [
         "images": [
             tictactoe1, tictactoe2, tictactoe3,
         ],
-        "path": "tictactoi"
+        "path": "tictactoi",
+        "repoUI": "https://github.com/meeraqunaibi/TicTacToe/tree/meera-qunaibe",
     },
 ];

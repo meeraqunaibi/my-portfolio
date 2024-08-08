@@ -1,5 +1,5 @@
 .project-det {
-    padding: 20px;
+    padding: 20px 100px;
     text-align: left;
 }
 
@@ -15,6 +15,31 @@
     font-weight: 700;
     color: #838998;
     padding: 80px 20px;
+    width: 50%;
+
+}
+
+.project-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-project {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.open-project span{
+    font-weight: bold;
+}
+
+
+.server-side, .client-side{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: solid 1px grey;
+    padding-top: 40px;
 }
 
 .project-images {

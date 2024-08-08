@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router';
 import './viewProject.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeftLong, faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 
 const ViewProject = (props) => {
     const [oneProject, setOneProject] = useState(null);
@@ -23,9 +23,25 @@ const ViewProject = (props) => {
                 <FontAwesomeIcon cursor={true} icon={faArrowLeftLong} size='4x' onClick={backAction} />
                 <h1>{oneProject?.title}</h1>
             </div>
-            <p>
-                {oneProject?.desc}
-            </p>
+            <div className='project-desc'>
+                <p>
+                    {oneProject?.desc}
+                </p>
+                <div className='open-project'>
+                    <div className='client-side'>
+                        <span>Source Code:</span>
+                        <a href={oneProject?.repoUI}>
+                            Client Side
+                        </a>
+                    </div>
+                    {oneProject?.repoAPI ? <div className='server-side'>
+                        <span>Source Code:</span>
+                        <a href={oneProject?.repoUI}>
+                            Server Side
+                        </a>
+                    </div> : ""}
+                </div>
+            </div>
             <div className='project-images'>
                 {oneProject?.images?.map((e, index) => <img key={index} src={e} alt='project-image' />)}
             </div>
